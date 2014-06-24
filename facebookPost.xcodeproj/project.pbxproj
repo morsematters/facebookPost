@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581F2D37891647F68F6D5B13 /* libPods-facebookPost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D723BF38D549FB80473200 /* libPods-facebookPost.a */; };
 		8687748B1956649E00645FBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687748A1956649E00645FBD /* Foundation.framework */; };
 		8687748D1956649E00645FBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687748C1956649E00645FBD /* CoreGraphics.framework */; };
 		8687748F1956649E00645FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687748E1956649E00645FBD /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		868774A61956649E00645FBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8687748E1956649E00645FBD /* UIKit.framework */; };
 		868774AE1956649E00645FBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 868774AC1956649E00645FBD /* InfoPlist.strings */; };
 		868774B01956649E00645FBD /* facebookPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868774AF1956649E00645FBD /* facebookPostTests.m */; };
+		868774BC195664C000645FBD /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868774BA195664C000645FBD /* PostViewController.m */; };
+		86FF76861958FEDC00EF183C /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86FF76851958FEDC00EF183C /* PostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		359F58C77221468A835B6391 /* Pods-facebookPost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookPost.xcconfig"; path = "Pods/Pods-facebookPost.xcconfig"; sourceTree = "<group>"; };
+		75D723BF38D549FB80473200 /* libPods-facebookPost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebookPost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868774871956649E00645FBD /* facebookPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8687748A1956649E00645FBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8687748C1956649E00645FBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,9 @@
 		868774AB1956649E00645FBD /* facebookPostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebookPostTests-Info.plist"; sourceTree = "<group>"; };
 		868774AD1956649E00645FBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		868774AF1956649E00645FBD /* facebookPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookPostTests.m; sourceTree = "<group>"; };
+		868774B9195664C000645FBD /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		868774BA195664C000645FBD /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		86FF76851958FEDC00EF183C /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				8687748D1956649E00645FBD /* CoreGraphics.framework in Frameworks */,
 				8687748F1956649E00645FBD /* UIKit.framework in Frameworks */,
 				8687748B1956649E00645FBD /* Foundation.framework in Frameworks */,
+				581F2D37891647F68F6D5B13 /* libPods-facebookPost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				868774A91956649E00645FBD /* facebookPostTests */,
 				868774891956649E00645FBD /* Frameworks */,
 				868774881956649E00645FBD /* Products */,
+				359F58C77221468A835B6391 /* Pods-facebookPost.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,7 @@
 				8687748C1956649E00645FBD /* CoreGraphics.framework */,
 				8687748E1956649E00645FBD /* UIKit.framework */,
 				868774A31956649E00645FBD /* XCTest.framework */,
+				75D723BF38D549FB80473200 /* libPods-facebookPost.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +122,9 @@
 				8687749A1956649E00645FBD /* AppDelegate.m */,
 				8687749C1956649E00645FBD /* Images.xcassets */,
 				868774911956649E00645FBD /* Supporting Files */,
+				868774B9195664C000645FBD /* PostViewController.h */,
+				868774BA195664C000645FBD /* PostViewController.m */,
+				86FF76851958FEDC00EF183C /* PostViewController.xib */,
 			);
 			path = facebookPost;
 			sourceTree = "<group>";
@@ -151,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 868774B31956649E00645FBD /* Build configuration list for PBXNativeTarget "facebookPost" */;
 			buildPhases = (
+				F3933790DBB34815A7FE52B0 /* Check Pods Manifest.lock */,
 				868774831956649E00645FBD /* Sources */,
 				868774841956649E00645FBD /* Frameworks */,
 				868774851956649E00645FBD /* Resources */,
+				E3B2FC8902B649DEB3E082ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +237,7 @@
 			files = (
 				868774951956649E00645FBD /* InfoPlist.strings in Resources */,
 				8687749D1956649E00645FBD /* Images.xcassets in Resources */,
+				86FF76861958FEDC00EF183C /* PostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +251,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3B2FC8902B649DEB3E082ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-facebookPost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3933790DBB34815A7FE52B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		868774831956649E00645FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,6 +291,7 @@
 			files = (
 				8687749B1956649E00645FBD /* AppDelegate.m in Sources */,
 				868774971956649E00645FBD /* main.m in Sources */,
+				868774BC195664C000645FBD /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +405,7 @@
 		};
 		868774B41956649E00645FBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359F58C77221468A835B6391 /* Pods-facebookPost.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +419,7 @@
 		};
 		868774B51956649E00645FBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359F58C77221468A835B6391 /* Pods-facebookPost.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +490,7 @@
 				868774B51956649E00645FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		868774B61956649E00645FBD /* Build configuration list for PBXNativeTarget "facebookPostTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +499,7 @@
 				868774B81956649E00645FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

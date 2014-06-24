@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PostViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    PostViewController *vc = [[PostViewController alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    nvc.navigationBar.barTintColor = [UIColor colorWithRed:(77/255.0) green:(106/255.0) blue:(164/255.0) alpha:1];
+    NSDictionary *titleTextAttributes =
+    @{
+      NSForegroundColorAttributeName : [UIColor colorWithRed:(255/255.0) green:(255/255.0) blue:(255/255.0) alpha:1]
+      };
+    
+    nvc.navigationBar.titleTextAttributes = titleTextAttributes;
+    
+//    nvc.navigationBar.translucent = NO;
+    self.window.rootViewController = nvc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
